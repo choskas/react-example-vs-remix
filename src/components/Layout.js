@@ -16,7 +16,6 @@ export function Layout({errorText}) {
                 onChange={(e) => setSearch(e.target.value)}
                 onSubmit={(e) => {
                     e.preventDefault()
-                    // ('/card/ola')
                 }}
               className="mx-[12px] shadow appearance-none border rounded w-[200px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
